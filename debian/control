@@ -1,0 +1,16 @@
+Source: opensnap
+Section: x11
+Priority: optional
+Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+Build-Depends: debhelper (>= 8.0.0), build-essential, libx11-dev, libgtk-3-dev
+Standards-Version: 3.9.5
+Homepage: https://github.com/lawl/opensnap
+Vcs-Git: https://github.com/semplice/opensnap.git
+Vcs-Browser: https://github.com/semplice/opensnap
+
+Package: opensnap
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, wmctrl
+Description: Aero-like snap feature for EWMH compilant window managers
+ opensnap is a little application that brings Aero-like snap feature
+ to EWMH compilant window managers, such as Openbox.
